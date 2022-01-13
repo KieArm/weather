@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location h1{
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.location h4{
+    font-size: 20px;
+}
+
+.degrees{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desc{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-temp{
+    cursor: pointer;
+}
+.container-temp,
+.container-feels,
+.container-desc{
+    display: flex;
+    align-items: center;
+}
+
+.container-feels-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-temp,
+.container-feels span{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.container-temp,
+.container-feels h1{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.container-temp,
+.container-feels h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.changemetric{
+    font-size: 9px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding-top: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
