@@ -43,6 +43,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px 0 50px 0;
 }
 
 .desc{
@@ -93,7 +94,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 0.8rem;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .footer a {

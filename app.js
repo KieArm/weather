@@ -17,9 +17,9 @@ window.addEventListener('load', () => {
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(position => {
             lon = position.coords.longitude;
-                console.log(lon);
+                // console.log(lon);
             lat = position.coords.latitude;
-                console.log(lat);
+                // console.log(lat);
 
             const api = `https://api.openweathermap.org/data/2.5/find?lat=${lat}&lon=${lon}&cnt=1&units=imperial&appid=${apikey}`;
 
@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
                     return res.json();
                 })
                 .then(data => {
-                    console.log(data);
+                    // console.log(data);
                     const { temp } = data.list[0].main;
                     degrees.textContent = Math.round(temp);
                     const { description } = data.list[0].weather[0];
